@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+frontend/dist/
+
+# Large zip files
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Local env files
+*.local
+.env
+.env.local

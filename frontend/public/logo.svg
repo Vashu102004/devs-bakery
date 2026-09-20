@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180" width="100%" height="100%">
+  <defs>
+    <style>
+      .text-devs { font-family: 'Playfair Display', serif, Times; font-size: 80px; font-weight: bold; fill: #ffffff; }
+      .text-bakery { font-family: 'Inter', sans-serif, Arial; font-size: 40px; font-weight: 300; fill: #ffffff; letter-spacing: 4px; }
+      .text-proudly { font-family: 'Great Vibes', cursive, serif; font-size: 28px; fill: #4ade80; font-style: italic; letter-spacing: 1px; }
+      .leaf-green { fill: #4ade80; }
+    </style>
+  </defs>
+
+  <!-- Group for main logo text to keep it centered -->
+  <g transform="translate(40, 90)">
+    
+    <!-- De text -->
+    <text x="0" y="0" class="text-devs">De</text>
+    
+    <!-- Custom V made entirely of leaves -->
+    <g transform="translate(100, -60)">
+      <!-- Left side of V as a green leaf -->
+      <path d="M 25 60 C 5 45 -5 15 5 0 C 15 10 20 30 25 60 Z" class="leaf-green" />
+      
+      <!-- Right side of V as a larger sprouting green leaf -->
+      <path d="M 25 60 C 50 45 65 5 45 -10 C 35 5 30 30 25 60 Z" class="leaf-green" />
+    </g>
+
+    <!-- 's text -->
+    <text x="175" y="0" class="text-devs">'s</text>
+
+    <!-- bakery text -->
+    <text x="270" y="0" class="text-bakery">BAKERY</text>
+
+    <!-- Proudly Vegetarian text -->
+    <text x="270" y="45" class="text-proudly">Proudly Vegetarian</text>
+    
+    <!-- Indian Veg Icon -->
+    <g transform="translate(240, 25)">
+      <rect x="0" y="0" width="20" height="20" fill="none" stroke="#4ade80" stroke-width="2" rx="3" />
+      <circle cx="10" cy="10" r="5" class="leaf-green" />
+    </g>
+
+  </g>
+</svg>
